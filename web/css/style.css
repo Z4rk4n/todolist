@@ -1,0 +1,113 @@
+body, html {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    height: 100vh;
+}
+ 
+#todolist-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todolist-task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#todolist-create-task-containter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 95vw;
+}
+
+.todolist-task-input-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.todolist-create-task-input-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 80%;
+}
+
+.todolist-create-task-input-text {
+    font-size: 16px;
+    padding: 10px 20px;        
+    font-size: 16px;           
+    border-radius: 5px;   
+    width: 80%;
+}
+
+.todolist-task-label-container {
+    flex: 0 0 80%;
+}
+.todolist-task-label {
+    font-family: arial;
+    margin-left: 10px;
+}
+
+.todolist-task-delete-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 20%;
+}
+
+.todolist-task-input-submit {
+    margin-right: 10px;
+    color: white;    
+    background-color: #98ff73;  /* Couleur rouge */          
+    border: none;              
+    padding: 10px 20px;        
+    font-size: 16px;           
+    border-radius: 5px;        
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;  
+}
+
+.todolist-task-delete-btn {
+    margin-right: 10px;
+    color: white;    
+    background-color: #ff4d4d;  /* Couleur rouge */          
+    border: none;              
+    padding: 10px 20px;        
+    font-size: 16px;           
+    border-radius: 5px;        
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;  
+}
+
+.todolist-task-input-submit:hover {
+    background-color: #3aab06;  
+    transform: scale(1.1);      
+}
+
+.todolist-task-input-submit-btn:active {
+    background-color: #3aab06; 
+    transform: scale(0.98);
+}
+
+.todolist-task-delete-btn:hover {
+    background-color: #e60000;  
+    transform: scale(1.1);      
+}
+
+.todolist-task-delete-btn:active {
+    background-color: #b30000;  
+    transform: scale(0.98);     
+}
